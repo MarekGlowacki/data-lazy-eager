@@ -1,2 +1,6 @@
-package online.javafun.auctions;public interface AuctionRepository {
+package online.javafun.auctions;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface AuctionRepository extends CrudRepository<Auction, Long> {
 }
